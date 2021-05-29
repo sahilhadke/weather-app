@@ -1,0 +1,151 @@
+/* COLORS */
+/* Blue : #1D201F */
+/* White : #F5F0F6 */
+/* Brown : #D7B377 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E9EDDE;
+      
+
+}
+
+
+/* HEADER */
+.banner{
+    height: 400px;
+    text-align: center;
+    background-color: #1D201F;
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+}
+
+.banner h1{
+    line-height: 1;
+    margin-top: 10px;
+    display: inline;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar-wrapper{
+    width: 100%;
+    background-color: #1D201F;
+    display: none;
+}
+
+.navbar ul{
+    max-width: 500px ;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.navbar ul li{
+    text-align: center;
+    display: inline-block;
+    width: 33.33%;
+    margin: 0 -2px;
+    height: 50px;
+
+}
+
+.navbar ul li a{
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 22px;
+}
+
+/* MAIN */
+.main-section{
+    min-height: 200px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    min-height: 350px; 
+}
+
+.main-section h2{
+    text-align: center;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.main-section form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.search-bar{
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #fff;
+}
+
+.submit-button{
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    margin: 20px auto;
+    display: block;
+    background-color: #1D201F;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.submit-button:hover{
+    transition: 0.2s;
+    background-color: #218380;
+}
+
+.forecast{
+    text-align: center;
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 10px 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: none;
+}
+
+.weather-text{
+    text-align: left;
+}
+
+.forecast p{
+    font-size: 18px;
+}
+
+.forecast p span{
+    
+    font-weight: bold;
+}
+
+
+
+/* FOOTER */
+footer{
+    min-height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #1D201F;
+    line-height: 50px;
+    padding: 0 10px;
+    color: #fff;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel = "icon" href =  
+"https://cdn.weatherapi.com/weather/64x64/day/122.png" 
+        type = "image/x-icon">
+</head>
+<body>
+
+    {{!-- This is how you fucking render header --}}
+    {{>header}}
+
+    <div class="main-section">
+
+        <h2>Search the name of the city to get weather details.</h2>
+        
+        <form class="weatherForm">
+            <input type="text" class="search-bar" placeholder="Enter city name...">
+            <br>
+            <input type="submit" class="submit-button" value="Search">        
+        </form>
+
+        <div class="forecast">
+
+            <h2 class="forecast-title"></h2>
+            
+            <img class="weather-icon" src="">
+            
+
+            <div class="weather-text">
+
+                <p class="place-name"></p>
+                <p class="current-temp"></p>
+                <p class="weather-condition"></p>
+                <p class="max-temp"></p>
+                <p class="min-temp"></p>
+                <p class="avg-temp"></p>
+                <p class="sunrise"></p>
+                <p class="sunset"></p>
+
+            </div>
+
+            
+        </div>
+
+
+    </div>
+
+    {{>footer}}
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
