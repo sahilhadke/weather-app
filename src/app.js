@@ -39,7 +39,6 @@ app.get('/weather', (req,res) => {
             }else{        
                 fetchWeather(response, (error, data)=>{
                     if(error){
-                        // fuck this. I quit
                         console.log(error);
                         res.send(error);
                     }else{
