@@ -1,5 +1,4 @@
-# weather-forecast-app
-weather app using node
+# Weather App
 
 https://sahil-weather-forecast.herokuapp.com/
 
